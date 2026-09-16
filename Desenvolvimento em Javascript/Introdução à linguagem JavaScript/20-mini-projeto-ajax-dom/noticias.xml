@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<noticias>
+    <noticia>
+        <titulo>Grupo de estudos pratica JavaScript</titulo>
+        <resumo>Notícia fictícia: estudantes revisam variáveis, funções e laços em uma atividade prática.</resumo>
+    </noticia>
+    <noticia>
+        <titulo>Oficina de desenvolvimento web</titulo>
+        <resumo>Notícia fictícia: uma oficina apresenta a integração entre HTML, CSS e JavaScript.</resumo>
+    </noticia>
+    <noticia>
+        <titulo>Repositório acadêmico reúne aprendizados</titulo>
+        <resumo>Notícia fictícia: exercícios de sala e trabalhos de casa passam a ser organizados por disciplina.</resumo>
+    </noticia>
+</noticias>

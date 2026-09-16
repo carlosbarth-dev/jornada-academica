@@ -1,0 +1,2 @@
+Olá! Eu carreguei este texto de um arquivo local usando XMLHttpRequest.
+Eu atualizei apenas uma parte da página, sem precisar recarregar o documento inteiro.

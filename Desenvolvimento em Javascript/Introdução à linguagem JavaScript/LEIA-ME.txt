@@ -1,0 +1,86 @@
+INTRODUÇÃO À LINGUAGEM JAVASCRIPT
+===============================
+
+Como estudo esta lista
+---------------------
+Eu sigo a numeração do PDF, do exercício 01 ao 20. Em cada pasta, encontro
+um index.html que carrega o script.js correspondente. Leio os comentários,
+executo o exemplo e altero os valores para observar o que acontece.
+Cada atividade funciona sozinha, sem executar as anteriores.
+
+Como executo
+------------
+Eu abro o index.html desta pasta e clico na atividade desejada.
+Nos exercícios 01 a 14, 17 e 18, vejo os resultados no Console do navegador
+(F12 > Console). Nos exercícios 04 e 05, o navegador pergunta minha idade.
+Se eu abrir o Console depois, posso recarregar a página com F5.
+Nos exercícios 15, 16, 19 e 20, vejo o resultado na própria página.
+
+Servidor local para AJAX (exercícios 19 e 20)
+-------------------------------------------
+O navegador pode bloquear requisições quando abro o HTML por file://.
+Eu sirvo os arquivos por HTTP, mesmo que eles estejam no meu computador:
+
+1. Abro jornada-academica no VS Code.
+2. Se ainda não estiver instalada, instalo a extensão Live Server de Ritwick Dey.
+3. Clico com o botão direito no index.html desta lista.
+4. Escolho "Open with Live Server".
+5. No navegador, entro nos exercícios 19 ou 20 pelo índice e clico no botão.
+
+O endereço deve começar com http://localhost ou http://127.0.0.1.
+Não preciso instalar pacotes npm. Também posso usar outro servidor HTTP local.
+
+Roteiro e resultados esperados
+-----------------------------
+01 - Variáveis e tipos: vejo string, number, boolean, undefined e null.
+     Eu observo que typeof null retorna "object", uma particularidade da linguagem.
+02 - Operadores aritméticos: com 10 e 3, obtenho 13, 7, 30, 3.333... e resto 1.
+03 - Comparações: 10 é menor que 20; 10 == "10" é true e 10 === "10" é false.
+     Eu também experimento dois números iguais e o primeiro maior que o segundo.
+04 - if/else: 17 é menor; 18 e 65 são maiores; 66 é idosa pelo enunciado (> 65).
+     Eu testo também zero, campo vazio, texto, número negativo e Cancelar.
+05 - Ternário: 17 é menor e 18 é maior. Eu repito os testes de entrada do exercício 04.
+06 - for: vejo os números de 1 a 10, incluindo os limites.
+07 - while e do...while: conto de 1 a 5 em ambos e observo que do...while
+     executa uma vez mesmo quando começo com a condição falsa.
+08 - Saudação: recebo mensagens personalizadas para Ana e Lucas.
+09 - Função anônima: com base 8 e altura 5, obtenho área 20.
+10 - Arrays: adiciono e retiro Abacaxi, copio Banana e Laranja com slice
+     e junto os nomes com join. A lista final continua com cinco frutas.
+11 - Objeto literal: vejo modelo, ano e motor de um carro.
+12 - Método consumo(km): para 140 km e motor 1.0, obtenho 10.00 litros.
+     Eu adoto rendimentos fictícios: até 1.0 = 14 km/L; até 1.6 = 12 km/L;
+     acima de 1.6 = 10 km/L. Não há tabela definida no enunciado.
+     Eu uso uma distância não negativa em quilômetros e motor numérico positivo.
+13 - Strings: primeiro caractere E, posição de JavaScript 17, busca ausente -1,
+     texto em maiúsculas e substituição de "aprendendo" por "praticando".
+14 - Callback: obtenho 10 ao dobrar 5 e 25 ao elevar 5 ao quadrado.
+15 - DOM: clico no botão e vejo mudar o texto, as cores e o espaçamento da div msg.
+16 - Elemento dinâmico: vejo um parágrafo criado pelo script e adicionado ao body.
+17 - Prototype: vejo duas apresentações e true ao comparar o método compartilhado.
+18 - Exceções: 8 e 0 são aceitos; -3 gera um erro tratado; o programa chega ao fim.
+19 - XMLHttpRequest: clico no botão e vejo o conteúdo de mensagem.txt na página.
+20 - AJAX + DOM: clico no botão e vejo três notícias fictícias de noticias.xml.
+     Ao clicar novamente, as notícias são substituídas, sem duplicação.
+
+Como exploro os erros de AJAX
+----------------------------
+Com o servidor ativo, posso renomear temporariamente mensagem.txt ou noticias.xml
+e clicar no botão para observar uma mensagem de erro HTTP. Depois restauro o nome.
+No exercício 20, posso remover uma tag de fechamento do XML para observar o erro
+de formatação, ou remover um título para observar a validação dos campos.
+Eu restauro o arquivo após cada experimento. Com <noticias></noticias>, vejo
+a mensagem "Nenhuma notícia encontrada".
+
+Conceitos que reviso
+-------------------
+Eu uso const quando não vou reatribuir a variável e let quando o valor muda.
+Eu uso console.log para mostrar resultados e return para devolver um valor.
+Eu entendo o DOM como a representação dos elementos da página em objetos.
+Eu uso eventos para executar funções em resposta a ações, como clicar no botão.
+Eu uso AJAX para buscar dados e atualizar a página sem recarregá-la inteira.
+
+Referência da atividade
+----------------------
+Lista_Exercicios_JavaScript_Praticos.pdf, com 20 exercícios práticos.
+O material fornecido cita "Aprendendo JavaScript", de Grillo & Fortes (2008).
